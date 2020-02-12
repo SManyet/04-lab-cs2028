@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Luke/CLionProjects/Lab4
+CMAKE_SOURCE_DIR = /Users/Luke/Documents/GitHub/04-Lab-cs2028
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Luke/CLionProjects/Lab4/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab4.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/Lab4.dir/flags.make
 
 CMakeFiles/Lab4.dir/main.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/main.cpp.o -c /Users/Luke/CLionProjects/Lab4/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/main.cpp.o -c /Users/Luke/Documents/GitHub/04-Lab-cs2028/main.cpp
 
 CMakeFiles/Lab4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/CLionProjects/Lab4/main.cpp > CMakeFiles/Lab4.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/04-Lab-cs2028/main.cpp > CMakeFiles/Lab4.dir/main.cpp.i
 
 CMakeFiles/Lab4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/CLionProjects/Lab4/main.cpp -o CMakeFiles/Lab4.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/04-Lab-cs2028/main.cpp -o CMakeFiles/Lab4.dir/main.cpp.s
 
 CMakeFiles/Lab4.dir/Show.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/Show.cpp.o: ../Show.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab4.dir/Show.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/Show.cpp.o -c /Users/Luke/CLionProjects/Lab4/Show.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab4.dir/Show.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/Show.cpp.o -c /Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp
 
 CMakeFiles/Lab4.dir/Show.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/Show.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/CLionProjects/Lab4/Show.cpp > CMakeFiles/Lab4.dir/Show.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp > CMakeFiles/Lab4.dir/Show.cpp.i
 
 CMakeFiles/Lab4.dir/Show.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/Show.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/CLionProjects/Lab4/Show.cpp -o CMakeFiles/Lab4.dir/Show.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp -o CMakeFiles/Lab4.dir/Show.cpp.s
 
 # Object files for target Lab4
 Lab4_OBJECTS = \
@@ -95,7 +95,7 @@ Lab4: CMakeFiles/Lab4.dir/main.cpp.o
 Lab4: CMakeFiles/Lab4.dir/Show.cpp.o
 Lab4: CMakeFiles/Lab4.dir/build.make
 Lab4: CMakeFiles/Lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Luke/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Lab4.dir/clean:
 .PHONY : CMakeFiles/Lab4.dir/clean
 
 CMakeFiles/Lab4.dir/depend:
-	cd /Users/Luke/CLionProjects/Lab4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Luke/CLionProjects/Lab4 /Users/Luke/CLionProjects/Lab4 /Users/Luke/CLionProjects/Lab4/cmake-build-debug /Users/Luke/CLionProjects/Lab4/cmake-build-debug /Users/Luke/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Luke/Documents/GitHub/04-Lab-cs2028 /Users/Luke/Documents/GitHub/04-Lab-cs2028 /Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug /Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug /Users/Luke/Documents/GitHub/04-Lab-cs2028/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab4.dir/depend
 

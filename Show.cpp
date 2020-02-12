@@ -1,5 +1,6 @@
 #include "Show.h"
 #include <iostream>
+using namespace std;
 
 Show::Show(){
     title = " ";
