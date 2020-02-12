@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp
+Show.h
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h
+iostream
+-
+
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h
+iostream
+-
+
