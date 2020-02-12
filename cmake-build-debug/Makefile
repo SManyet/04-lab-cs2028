@@ -123,6 +123,33 @@ Lab4/fast:
 	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/build
 .PHONY : Lab4/fast
 
+Movie.o: Movie.cpp.o
+
+.PHONY : Movie.o
+
+# target to build an object file
+Movie.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Movie.cpp.o
+.PHONY : Movie.cpp.o
+
+Movie.i: Movie.cpp.i
+
+.PHONY : Movie.i
+
+# target to preprocess a source file
+Movie.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Movie.cpp.i
+.PHONY : Movie.cpp.i
+
+Movie.s: Movie.cpp.s
+
+.PHONY : Movie.s
+
+# target to generate assembly for a file
+Movie.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Movie.cpp.s
+.PHONY : Movie.cpp.s
+
 Show.o: Show.cpp.o
 
 .PHONY : Show.o
@@ -149,6 +176,33 @@ Show.s: Show.cpp.s
 Show.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Show.cpp.s
 .PHONY : Show.cpp.s
+
+TVshow.o: TVshow.cpp.o
+
+.PHONY : TVshow.o
+
+# target to build an object file
+TVshow.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/TVshow.cpp.o
+.PHONY : TVshow.cpp.o
+
+TVshow.i: TVshow.cpp.i
+
+.PHONY : TVshow.i
+
+# target to preprocess a source file
+TVshow.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/TVshow.cpp.i
+.PHONY : TVshow.cpp.i
+
+TVshow.s: TVshow.cpp.s
+
+.PHONY : TVshow.s
+
+# target to generate assembly for a file
+TVshow.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/TVshow.cpp.s
+.PHONY : TVshow.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Lab4"
+	@echo "... Movie.o"
+	@echo "... Movie.i"
+	@echo "... Movie.s"
 	@echo "... Show.o"
 	@echo "... Show.i"
 	@echo "... Show.s"
+	@echo "... TVshow.o"
+	@echo "... TVshow.i"
+	@echo "... TVshow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lab4.dir/Movie.cpp.o"
   "CMakeFiles/Lab4.dir/Show.cpp.o"
+  "CMakeFiles/Lab4.dir/TVshow.cpp.o"
   "CMakeFiles/Lab4.dir/main.cpp.o"
   "Lab4"
   "Lab4.pdb"

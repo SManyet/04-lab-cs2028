@@ -16,7 +16,7 @@ Show::Show(string makeTitle, string makeDescription){
 virtual void Show::play(){
 
 }
-void Show::details(){
+void Show::details()
     std::cout << "Title: " << title
     std::cout << "Description: " << description
 }

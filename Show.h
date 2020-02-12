@@ -1,5 +1,7 @@
 #ifndef LAB4_SHOW_H
 #define LAB4_SHOW_H
+#include <iostream>
+using namespace std;
 
 
 //Task 1:

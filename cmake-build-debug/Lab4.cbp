@@ -80,10 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/Movie.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/Movie.h">
+			<Option target="Lab4"/>
+		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp">
 			<Option target="Lab4"/>
 		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/TVshow.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/TVshow.h">
 			<Option target="Lab4"/>
 		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/04-Lab-cs2028/main.cpp">
