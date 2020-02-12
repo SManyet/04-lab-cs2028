@@ -1,7 +1,72 @@
 #include <iostream>
 
+#include "Show.h"
+#include "Movie.h"
+#include "TVshow.h"
+
+
+using namespace std;
+
+void fixBadInput() {
+    cin.clear();
+    cin.ignore();
+    cout << "Invalid input, try again" << endl;
+}
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    
+    bool running = true;
+    while (running) {
+        cout << "Press 1 for instance of Show" << endl;
+        cout << "Press 2 for instance of Movie" << endl;
+        cout << "Press 3 for instance of TV Show" << endl;
+        cout << "Press 4 for instance of Movie declared as Show" << endl;
+        cout << "Press 5 for instance of TV Show declared as Show" << endl;
+        int userInput;
+        cin >> userInput;
+        if (cin.fail() || userInput > 5 || userInput < 1) {
+            fixBadInput();
+            continue;
+        }
+
+        string title;
+        string description;
+        while (true) {
+            cout << "Title of Show: " << endl;
+            cin >> title;
+            cout << "Description of the Show: " << endl;
+            cin >> description;
+            if (cin.fail()) {
+                fixBadInput();
+                continue;
+            } 
+        }
+
+        switch (userInput) {
+            case 1: {
+                Show userShow = Show(title, description);
+                break;
+            }
+            case 2: {
+                Movie userMovie = Movie(title, description);
+                break;
+            }
+            case 3: {
+                TVshow userTV = TVshow(title, description);
+                break;
+            }
+            case 4: { // TODO   pointer stuff???
+                Movie userMS = Show(title, description);
+                break;
+            }
+            case 5: {
+                TVshow userTS = Show(title, description);
+                break;
+            }       
+
+
+    }
+
     return 0;
 }
 
@@ -47,7 +112,7 @@ int main() {
 
 /*Lab Report:
  * Description of the objectives/concepts explored
- * Sections from each task indicated in the Lab sheet
+ * Sections from each task indicated in the Lab sheet*/
 
 
 
