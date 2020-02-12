@@ -13,14 +13,30 @@ Show::Show(string makeTitle, string makeDescription){
 }
 
 //functions
-virtual void Show::play(){
-
-}
-void Show::details()
-    std::cout << "Title: " << title
-    std::cout << "Description: " << description
+void Show::play(){
 }
 
+void Show::details() {
+    cout << "Title: " << title;
+    cout << "Description: " << description;
+}
+
+// getters and setters
+string Show::getTitle(){
+    return title;
+}
+
+void Show::setTitle(string newTitle) {
+    title = newTitle;
+}
+
+string Show::getDescription(){
+    return description;
+}
+
+void Show::setDescription(string newDescription) {
+    description = newDescription;
+}
 
 
 //Task 1:
@@ -30,3 +46,4 @@ void Show::details()
 //  c- Define a virtual function play.  Define a non-virtual function called Details
 //     that prints out hte two attributes from 1a
 //  d- Include in submission how each member will be available in derived classes
+// ** what?

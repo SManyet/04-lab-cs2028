@@ -1,9 +1,8 @@
-//
-// Created by Luke Cheng on 2/12/20.
-//
-
 #ifndef LAB4_TVSHOW_H
 #define LAB4_TVSHOW_H
+
+#include <iostream>
+using namespace std;
 
 //Task 2:
 //Goal: Create a class for TV show
@@ -13,10 +12,17 @@
 //  c- non-virtual function "details" should be defined as printing out the two attributes of "1a and 2a"
 
 class TVshow : public Show{
+
 private:
-    int tvArray[5][5] = {{1,10}, {2,11}, {3,12}, {3,12}, {3,12}};
+    string tvArray[][];
 
 public:
+
+    void play();
+    void details();
+
+    TVshow() : Show(;
+    TVshow(string makeTitle, string makeDescription) : Show(makeTitle, makeDescription);
 
 };
 

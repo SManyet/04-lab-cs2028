@@ -7,6 +7,9 @@
 
 
 class Movie {
+private:
+
+public:
 
 };
 

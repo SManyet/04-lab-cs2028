@@ -6,7 +6,6 @@ int main() {
 }
 
 
-
 //Task 1:
 //Goal: create base class (abstractly models an online streaming service)
 //  a- 2 attributes needed (Title, Description)

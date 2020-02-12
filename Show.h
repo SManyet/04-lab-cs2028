@@ -26,6 +26,13 @@ public:
     //functions
     virtual void play();
     void details();
+
+    //getters and setters
+    string getTitle();
+    void setTitle(string newTitle);
+    string getDescription();
+    void setDescription(string newDescription);
+
 };
 
 
