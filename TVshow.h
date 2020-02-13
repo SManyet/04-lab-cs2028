@@ -1,7 +1,5 @@
-#ifndef LAB4_TVSHOW_H
-#define LAB4_TVSHOW_H
-
 #include <iostream>
+#include "Show.h"
 using namespace std;
 
 //Task 2:
@@ -14,17 +12,14 @@ using namespace std;
 class TVshow : public Show{
 
 private:
-    string tvArray[][];
+    string tvArray[3][3];
 
 public:
 
     void play();
     void details();
 
-    TVshow() : Show(;
-    TVshow(string makeTitle, string makeDescription) : Show(makeTitle, makeDescription);
+    TVshow(string, string);
 
 };
 
-
-#endif //LAB4_TVSHOW_H

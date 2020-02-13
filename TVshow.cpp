@@ -16,15 +16,14 @@ using namespace std;
         {"The One with the Princess Leia Fantasy", "The One Where No One's Ready", "The One with the Jam"}
                             };
 
-    TVshow::TVshow () : Show () {
-    }
+    //no need to redefine default constructor here as we won't build TVshows without a title or description
 
     TVshow::TVshow (string makeTitle, string makeDescription) : Show (makeTitle, makeDescription) {
         title = makeTitle;
         description = makeDescription;
     };
 
-    void TVshow::play(){
+    void play(){
         int season;
         int episode;
 
@@ -40,5 +39,4 @@ using namespace std;
         cout << "Description: " << description;
         cout << sizeof(tvArray[0]);
         Show::details();
-    }
-};
+    };

@@ -13,7 +13,7 @@ using namespace std;
 //  d- Include in submission how each member will be available in derived classes
 
 class Show {
-private:
+protected: // made to be protected so derived classes can access them
     //two attributes for abstract class
     string title;
     string description;
@@ -21,7 +21,7 @@ private:
 public:
     //two constructors
     Show();
-    Show(string title, string description);
+    Show(string, string);
 
     //functions
     virtual void play();
@@ -29,9 +29,9 @@ public:
 
     //getters and setters
     string getTitle();
-    void setTitle(string newTitle);
+    void setTitle(string);
     string getDescription();
-    void setDescription(string newDescription);
+    void setDescription(string);
 
 };
 

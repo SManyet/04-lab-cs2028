@@ -1,17 +1,18 @@
-//
-// Created by Luke Cheng on 2/12/20.
-//
+#include <iostream>
+#include "Show.h"
 
-#ifndef LAB4_MOVIE_H
-#define LAB4_MOVIE_H
+using namespace std;
 
-
-class Movie {
+class Movie : public Show{
 private:
+    string openingCredits;
 
 public:
 
+    Movie(string, string);
+    string getOpeningCredits();
+    void setOpeningCredits(string newOpeningCredits);
+    void play();
+
 };
 
-
-#endif //LAB4_MOVIE_H
