@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.cpp
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Movie.cpp
+Movie.h
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Movie.h
 Show.h
 /Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h
 iostream
 -
+
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Movie.h
+iostream
+-
+Show.h
+/Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h
 
 /Users/Luke/Documents/GitHub/04-Lab-cs2028/Show.h
 iostream
