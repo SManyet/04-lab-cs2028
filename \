@@ -15,7 +15,7 @@ void fixBadInput() {
 
 template <class Shows>
 void displayShow(Shows &show) {
-    show.details();
+    show.description();
     show.play();
 }
 
@@ -45,8 +45,6 @@ int main() {
             if (cin.fail()) {
                 fixBadInput();
                 continue;
-            } else {
-                break;
             } 
         }
 
@@ -70,37 +68,19 @@ int main() {
                 TVshow userShow = TVshow(title, description);
                 userShow.details();
                 userShow.play();
-                displayShow(userShow);
                 break;
             }
             case 4: { // TODO   pointer stuff???
-                Show userMS = Movie(title, description);
-                userMS.details();
-                userMS.play();
-                displayShow(userMS);
+                Movie userMS = Show(title, description);
                 break;
             }
             case 5: {
-                Show userTS = TVshow(title, description);
-                userTS.details();
-                userTS.play();
-                displayShow(userTS);
+                TVshow userTS = Show(title, description);
                 break;
             }
         
         }
-        while(true) {
-            int quit;
-            cout << "continue(1), or quit(2): " << endl;
-            cin >> quit;
-            if (cin.fail()) {
-                fixBadInput();
-                continue;
-            } else if (quit == 2) {
-                running = false;
-            }
-        break;
-        }
+
     }
 
     return 0;
