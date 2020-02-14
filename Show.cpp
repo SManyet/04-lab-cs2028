@@ -17,8 +17,8 @@ void Show::play(){
 }
 
 void Show::details() {
-    cout << "Title: " << title;
-    cout << "Description: " << description;
+    cout << "Title: " << title << endl;
+    cout << "Description: " << description << endl;
 }
 
 // getters and setters

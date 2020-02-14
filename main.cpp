@@ -13,6 +13,12 @@ void fixBadInput() {
     cout << "Invalid input, try again" << endl;
 }
 
+template <class Shows>
+void displayShow(Shows &show) {
+    show.details();
+    show.play();
+}
+
 int main() {
     
     bool running = true;
@@ -39,34 +45,55 @@ int main() {
             if (cin.fail()) {
                 fixBadInput();
                 continue;
-            } 
+            } else {
+                break;
+            }
         }
 
         switch (userInput) {
             case 1: {
                 Show userShow = Show(title, description);
+                userShow.details();
+                userShow.play();
+                displayShow(userShow);
                 break;
             }
             case 2: {
-                Movie userMovie = Movie(title, description);
+                Movie userShow = Movie(title, description);
+                userShow.details();
+                userShow.play();
+                displayShow(userShow);
                 break;
             }
             case 3: {
-                TVshow userTV = TVshow(title, description);
+                TVshow userShow = TVshow(title, description);
+                userShow.details();
+                userShow.play();
+                displayShow(userShow);
                 break;
             }
-            case 4: { // TODO   pointer stuff???
-                Movie userMS = Show(title, description);
-                break;
+//             case 4: { // TODO   pointer stuff???
+//                 Movie userMS = Show(title, description);
+//                 break;
+//             }
+//             case 5: {
+//                 TVshow userTS = Show(title, description);
+//                 break;
+//             }
+        }
+        while(true) {
+            int quit;
+            cout << "continue(1), or quit(2): " << endl;
+            cin >> quit;
+            if (cin.fail()) {
+                fixBadInput();
+                continue;
+            } else if (quit == 2) {
+                running = false;
             }
-            case 5: {
-                TVshow userTS = Show(title, description);
-                break;
-            }       
-
-
+            break;
+        }
     }
-
     return 0;
 }
 

@@ -1,3 +1,6 @@
+#ifndef TVSHOW_H
+#define TVSHOW_H
+
 #include <iostream>
 #include "Show.h"
 using namespace std;
@@ -22,4 +25,4 @@ public:
     TVshow(string, string);
 
 };
-
+#endif
