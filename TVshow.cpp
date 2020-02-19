@@ -41,6 +41,7 @@ using namespace std;
             cin >> season;
             cout << "Which episode would you like to play?" << endl;
             cin >> episode;
+            cout << "\n";
             if(cin.fail()) {
                 cout << "bad input, try again" << endl;
                 cin.clear();
@@ -56,5 +57,5 @@ using namespace std;
         cout << "Title: " << title << endl;
         cout << "Description: " << description << endl;
         cout << "3 Seasons" << endl;
-        Show::details();
+        cout << "\n";
     };

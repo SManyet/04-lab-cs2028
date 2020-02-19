@@ -15,7 +15,9 @@ void fixBadInput() {
 
 
 void displayShow(Show &show) {
-    cout << "new function with show as parameter" << endl;
+    cout << "\n";
+    cout << "Another function outside the class below  will run play() and details() again" << endl;
+    cout << "\n";
     show.play();
     show.details();
 
@@ -30,6 +32,8 @@ int main() {
         cout << "Press 3 for instance of TV Show" << endl;
         cout << "Press 4 for instance of Movie declared as Show" << endl;
         cout << "Press 5 for instance of TV Show declared as Show" << endl;
+        cout << "\n";
+
         int userInput;
         cin >> userInput;
         if (cin.fail() || userInput > 5 || userInput < 1) {
@@ -40,14 +44,17 @@ int main() {
         string title;
         string description;
         while (true) {
+            cout << "\n";
             cout << "Title of Show: " << endl;
             cin >> title;
+            cout << "\n";
             cout << "Description of the Show: " << endl;
             cin >> description;
             if (cin.fail()) {
                 fixBadInput();
                 continue;
             } else {
+                cout << "\n";
                 break;
             } 
         }
@@ -58,6 +65,7 @@ int main() {
                 userShow.details();
                 userShow.play();
                 displayShow(userShow);
+                cout << "\n";
                 break;
             }
             case 2: {
@@ -65,7 +73,7 @@ int main() {
                 userShow.details();
                 userShow.play();
                 displayShow(userShow);
-
+                cout << "\n";
                 break;
             }
             case 3: {
@@ -73,6 +81,7 @@ int main() {
                 userShow.details();
                 userShow.play();
                 displayShow(userShow);
+                cout << "\n";
                 break;
             }
             case 4: {
@@ -80,6 +89,7 @@ int main() {
                 userMS.details();
                 userMS.play();
                 displayShow(userMS);
+                cout << "\n";
                 break;
             }
             case 5: {
@@ -87,6 +97,7 @@ int main() {
                 userTS.details();
                 userTS.play();
                 displayShow(userTS);
+                cout << "\n";
                 break;
             }
         
@@ -95,6 +106,7 @@ int main() {
             int quit;
             cout << "continue(1), or quit(2): " << endl;
             cin >> quit;
+            cout << "\n";
             if (cin.fail()) {
                 fixBadInput();
                 continue;
