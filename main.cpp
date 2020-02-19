@@ -15,6 +15,7 @@ void fixBadInput() {
 
 
 void displayShow(Show &show) {
+    cout << "new function with show as parameter" << endl;
     show.play();
     show.details();
 
