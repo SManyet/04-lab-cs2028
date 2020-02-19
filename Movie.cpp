@@ -4,7 +4,7 @@
 using namespace std;
 
 void Movie::play(){
-    cout << openingCredits;
+    cout << openingCredits << endl;;
 };
 
 void Movie::setOpeningCredits(string newOpeningCredits){

@@ -53,8 +53,8 @@ using namespace std;
     };
 
     void TVshow::details() {
-        cout << "Title: " << title;
-        cout << "Description: " << description;
-        cout << sizeof(tvArray[0]);
+        cout << "Title: " << title << endl;
+        cout << "Description: " << description << endl;;
+        cout << sizeof(tvArray[0]) << endl;
         Show::details();
     };
