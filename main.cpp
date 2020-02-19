@@ -13,10 +13,11 @@ void fixBadInput() {
     cout << "Invalid input, try again" << endl;
 }
 
-template <class Shows>
-void displayShow(Shows &show) {
-    show.details();
+
+void displayShow(Show &show) {
     show.play();
+    show.details();
+
 }
 
 int main() {
