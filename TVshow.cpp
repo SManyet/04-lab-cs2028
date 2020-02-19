@@ -54,7 +54,7 @@ using namespace std;
 
     void TVshow::details() {
         cout << "Title: " << title << endl;
-        cout << "Description: " << description << endl;;
+        cout << "Description: " << description << endl;
         cout << "3 Seasons" << endl;
         Show::details();
     };
