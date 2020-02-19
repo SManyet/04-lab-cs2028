@@ -3,21 +3,24 @@
 #include <iostream>
 using namespace std;
 
-string openingCredits = "These are the opening credits.";
-
-void play(){
+void Movie::play(){
     cout << openingCredits;
 };
 
-void setOpeningCredits(string newOpeningCredits){
+void Movie::setOpeningCredits(string newOpeningCredits){
     openingCredits = newOpeningCredits;
 };
 
-string getOpeningCredits(){
+string Movie::getOpeningCredits(){
     return openingCredits;
 };
 
 Movie::Movie(string makeTitle, string makeDescription) : Show (makeTitle, makeDescription) {
     title = makeTitle;
     description = makeDescription;
+    openingCredits = "These are the opening credits.";
 };
+
+Movie::Movie() : Show() {
+    openingCredits = "These are the opening credits.";
+}

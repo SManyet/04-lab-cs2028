@@ -1,3 +1,6 @@
+#ifndef MOVIE_H
+#define MOVIE_H
+
 #include <iostream>
 #include "Show.h"
 
@@ -10,9 +13,10 @@ private:
 public:
 
     Movie(string, string);
+    Movie();
     string getOpeningCredits();
     void setOpeningCredits(string newOpeningCredits);
     void play();
 
 };
-
+#endif
