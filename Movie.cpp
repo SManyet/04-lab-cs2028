@@ -18,7 +18,7 @@ string Movie::getOpeningCredits(){
 Movie::Movie(string makeTitle, string makeDescription) : Show (makeTitle, makeDescription) {
     title = makeTitle;
     description = makeDescription;
-    openingCredits = "These are the opening credits.";
+    openingCredits = "These are the opening credits.\n";
 };
 
 Movie::Movie() : Show() {
